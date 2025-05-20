@@ -4,7 +4,7 @@
 }
 .main {
   display: flex;
-  background-image: linear-gradient(rgb(6, 160, 231), rgb(131, 222, 228));
+  background-image: linear-gradient(rgb(38, 125, 165), rgb(26, 148, 156));
   background-size: cover;
   color: white;
   height: 100vh;
@@ -14,26 +14,26 @@
 }
 .card {
   display: flex;
-  width: 25%;
-  height: auto;
+  width: 21%;
   background-color: rgb(255, 255, 255);
   color: rgb(0, 0, 0);
   background-size: contain;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  border-radius: 5px;
+  border-radius: 17px;
 }
 .bgwa {
-  border-radius: 5px 5px 0px 0px;
+  border-radius: 7px 7px 0px 0px;
   display: flex;
   width: 100%;
-  height: 150px;
+  height: 140px;
   background-color: rgb(255, 255, 255);
   color: rgb(0, 0, 0);
   flex-direction: column;
 }
 .profile {
+  background-size: contain;
   border: 2px solid white;
   border-radius: 50%;
   position: relative;
@@ -41,13 +41,23 @@
 }
 .text {
   position: relative;
-  top: -40px;
+  top: -30px;
 }
 .social {
+  text-align: center;
+  margin-left: 15px;
   display: flex;
+  padding: 10px;
+  width: 89%;
+  flex-direction: row-reverse;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: stretch;
+  font-weight: 600;
+  font-size: medium;
 }
-p {
-  width: 20%;
-  display: flex;
-  flex-direction: row;
+.bold {
+  opacity: 40%;
+  font-weight: 100;
+  font-size: small;
 }
