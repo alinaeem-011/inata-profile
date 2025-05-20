@@ -1,0 +1,53 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.main {
+  display: flex;
+  background-image: linear-gradient(rgb(6, 160, 231), rgb(131, 222, 228));
+  background-size: cover;
+  color: white;
+  height: 100vh;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+}
+.card {
+  display: flex;
+  width: 25%;
+  height: auto;
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  background-size: contain;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+}
+.bgwa {
+  border-radius: 5px 5px 0px 0px;
+  display: flex;
+  width: 100%;
+  height: 150px;
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  flex-direction: column;
+}
+.profile {
+  border: 2px solid white;
+  border-radius: 50%;
+  position: relative;
+  top: -50px;
+}
+.text {
+  position: relative;
+  top: -40px;
+}
+.social {
+  display: flex;
+}
+p {
+  width: 20%;
+  display: flex;
+  flex-direction: row;
+}
